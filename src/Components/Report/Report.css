@@ -1,0 +1,46 @@
+.heading{
+    color: brown;
+}
+.form-header {
+    font-size: 50px;
+    color: brown;
+    text-align: center;
+  }
+  .form-group {
+    padding: 10px;
+  }
+   /* SignUp form */
+   .report {
+    margin-top: 30px;
+    background: #f4f4ef;
+  }
+  input[type=text],textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  /* Style the submit button */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .report {
+    border-radius: 5px;
+  }
